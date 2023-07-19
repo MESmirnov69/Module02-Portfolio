@@ -1,5 +1,20 @@
-$bg: #ff0;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
+$gray: #F3F2F0;
+$bgcolor: #232326;
+$red: #D40000;
+$white: #FFFFFF;
+$text: #F3F2F20;
+
+
+$font-inter: 'Inter', sans-serif;
+
+html {
+    font-size: 10px;
+}
 body {
-    background-color: $bg;
+    font-family: $font-inter;
+    font-size: 1.4rem;
+    color: $gray;
+    background: $bgcolor;
 }
